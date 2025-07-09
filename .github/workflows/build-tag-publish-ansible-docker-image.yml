@@ -2,7 +2,7 @@ name: Builds, tags, and pushes @anyone-protocol/ansible docker image to ghcr
 
 on:
   push:
-    branches: main
+    branches: master
   workflow_dispatch:
 env:
   IMAGE_NAME: ansible
